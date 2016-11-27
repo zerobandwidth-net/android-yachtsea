@@ -1,0 +1,4 @@
+include ':zerobandwidth_android'
+project (':zerobandwidth_android').projectDir = new File(lib_zerobandwidth_android)
+
+include ':appYachtSea'

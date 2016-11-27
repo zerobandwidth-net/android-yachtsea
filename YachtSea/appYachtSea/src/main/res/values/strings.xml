@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Yacht Sea</string>
+
+    <string name="label_button_new_game">Create New Game&#8230;</string>
+    <string name="label_button_open_game">Open Existing Game</string>
+    <string name="label_button_play">Play&#8230;</string>
+    <string name="label_button_score">Keep Score&#8230;</string>
+
+    <string name="text_title_card">%1$s\n%2$s</string>
+
+    <string name="title_play_game">Play a Game</string>
+    <string name="title_keep_score">Keep Score</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.zerobandwidth.android.apps.yachtsea.ui.MainActivity"
+    >
+
+    <item
+        android:id="@+id/menuitem_yachtsea_main_play"
+        android:title="@string/label_button_play"
+        android:icon="@drawable/ic_casino_48px"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/menuitem_yachtsea_main_score"
+        android:title="@string/label_button_score"
+        android:icon="@drawable/ic_poll_48px"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
