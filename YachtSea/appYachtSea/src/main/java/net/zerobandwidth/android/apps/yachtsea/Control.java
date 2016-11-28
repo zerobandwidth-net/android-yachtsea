@@ -6,9 +6,15 @@ import android.content.Intent;
 /**
  * Defines constants that control the behavior of the app.
  * @since zerobandwidth-net/android-yachtsea 0.0.1
+ * @see net.zerobandwidth.android.apps.yachtsea.ui.ControlledAppCompatActivity
  */
 public class Control
 {
+    /**
+     * Mode indicator placeholder value when it has not been initialized yet.
+     */
+    public static final int MODE_NOT_INITIALIZED = -1 ;
+
     /**
      * Mode indicator for using the app to play the game.
      * @see #startActivity

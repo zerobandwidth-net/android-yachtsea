@@ -102,12 +102,20 @@ extends AppCompatActivity
         return super.onOptionsItemSelected(item) ;
     }
 
+    /**
+     * Handles the event where a user wants to play the game.
+     * @param w the selected UI object (ignored)
+     */
     public void onPlayGameSelected( View w )
     {
         Control.startActivity( this, CreateOrOpenActivity.class,
                 Control.MODE_PLAY_GAME ) ;
     }
 
+    /**
+     * Handles the event where a user wants to keep score in a real-world game.
+     * @param w the selected UI object (ignored)
+     */
     public void onKeepScoreSelected( View w )
     {
         Control.startActivity( this, CreateOrOpenActivity.class,

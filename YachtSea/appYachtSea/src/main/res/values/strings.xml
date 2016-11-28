@@ -6,6 +6,9 @@
     <string name="label_button_open_game">Open Existing Game</string>
     <string name="label_button_play">Play&#8230;</string>
     <string name="label_button_score">Keep Score&#8230;</string>
+    <string name="label_button_create_player">Create Player&#8230;</string>
+
+    <string name="label_spinner_player_count">Number of Players:</string>
 
     <string name="text_title_card">%1$s\n%2$s</string>
 

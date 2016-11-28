@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".ui.CreateOrOpenActivity">
         </activity>
+        <activity android:name=".ui.CreateActivity">
+        </activity>
     </application>
 
 </manifest>
