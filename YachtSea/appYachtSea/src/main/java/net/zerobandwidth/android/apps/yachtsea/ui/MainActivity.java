@@ -37,7 +37,6 @@ extends AppCompatActivity
         super.onCreate(bndlState) ;
         this.setContentView( R.layout.activity_yachtsea_main ) ;
         this.acquireUIRefs().updateTitleCard() ;
-        AppUtils.setLinearOrientation( this, m_layMain ) ;
     }
 
     /**

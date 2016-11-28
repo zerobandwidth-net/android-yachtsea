@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_yachtsea_create_or_open_activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.zerobandwidth.android.apps.yachtsea.ui.CreateOrOpenActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_yachtsea_create_or_open_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button_yachtsea_new_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_button_new_game"
+            />
+
+        <Button
+            android:id="@+id/button_yachtsea_open_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_button_open_game"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_yachtsea_existing_games"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        >
+
+    </ListView>
+
+</LinearLayout>

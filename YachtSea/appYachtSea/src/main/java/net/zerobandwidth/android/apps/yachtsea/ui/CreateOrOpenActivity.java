@@ -26,7 +26,6 @@ extends AppCompatActivity
         setContentView( R.layout.activity_yachtsea_create_or_open ) ;
         this.acquireUIRefs().setTitleForMode() ;
         AppUtils.initBackButtonForActivity(this) ;
-        AppUtils.setLinearOrientation( this, m_layMain ) ;
     }
 
     /**
