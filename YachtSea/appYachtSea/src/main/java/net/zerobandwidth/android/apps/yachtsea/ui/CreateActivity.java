@@ -6,6 +6,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import net.zerobandwidth.android.apps.yachtsea.R;
+import net.zerobandwidth.android.apps.yachtsea.model.Player;
 import net.zerobandwidth.android.lib.AppUtils;
 
 /**
@@ -14,6 +15,7 @@ import net.zerobandwidth.android.lib.AppUtils;
  */
 public class CreateActivity
 extends ControlledAppCompatActivity
+implements CreatePlayerDialogFragment.InteractionListener
 {
     public static final String LOG_TAG = CreateActivity.class.getSimpleName() ;
 
@@ -45,6 +47,18 @@ extends ControlledAppCompatActivity
      */
     public void onCreatePlayerSelected( View w )
     {
-        Log.d( LOG_TAG, "Yep, someone pressed the Create Player button." ) ;
+        // Log.d( LOG_TAG, "Yep, someone pressed the Create Player button." ) ;
+        CreatePlayerDialogFragment fragCreatePlayer =
+                new CreatePlayerDialogFragment() ;
+        fragCreatePlayer.show( this.getSupportFragmentManager(),
+                CreatePlayerDialogFragment.class.getSimpleName() ) ;
     }
+
+    public void onPlayerCreated( Player player )
+    {
+        Log.d( LOG_TAG, "Yep, someone created a player: "
+            + player.getID() + " " + player.getName() ) ;
+    }
+
+    public void onPlayerCreationCancelled() {}
 }

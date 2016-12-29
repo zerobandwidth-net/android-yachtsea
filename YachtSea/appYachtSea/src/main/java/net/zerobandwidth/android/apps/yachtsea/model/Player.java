@@ -30,10 +30,19 @@ public class Player
      */
     public Player setID( String sID )
     {
-        if( sID == null )
-            m_sID = UUID.randomUUID().toString() ;
-        else
-            m_sID = sID ;
+        if( sID == null ) return this.identify() ;
+
+        m_sID = sID ;
+        return this ;
+    }
+
+    /**
+     * Generates a random UUID and assigns it as the UUID of this player.
+     * @return (fluid)
+     */
+    public Player identify()
+    {
+        m_sID = UUID.randomUUID().toString() ;
         return this ;
     }
 

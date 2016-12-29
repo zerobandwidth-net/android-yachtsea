@@ -34,8 +34,8 @@
             android:id="@+id/button_yachtsea_play"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_casino_48px"
-            android:drawableLeft="@drawable/ic_casino_48px"
+            android:drawableStart="@drawable/ic_casino_white_48dp"
+            android:drawableLeft="@drawable/ic_casino_white_48dp"
             android:text="@string/label_button_play"
             android:onClick="onPlayGameSelected"
             />
@@ -44,8 +44,8 @@
             android:id="@+id/button_yachtsea_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_poll_48px"
-            android:drawableLeft="@drawable/ic_poll_48px"
+            android:drawableStart="@drawable/ic_poll_white_48dp"
+            android:drawableLeft="@drawable/ic_poll_white_48dp"
             android:text="@string/label_button_score"
             android:onClick="onKeepScoreSelected"
             />
